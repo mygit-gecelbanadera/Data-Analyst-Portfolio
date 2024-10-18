@@ -4,6 +4,10 @@
     margin-bottom: 0;
 }
 body{
+    width: 1910px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 3980px;
     margin-left: 0;
     margin-right: 0;
@@ -12,6 +16,7 @@ body{
     padding-right: 0;
     padding-bottom: 0;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -20,9 +25,4 @@ p{
     margin-top:0;
    
 }
-/**@media (max-width: 800px){
-    body{
-        width:8vw;
-        align-items: center;
-    }
-}**/
+

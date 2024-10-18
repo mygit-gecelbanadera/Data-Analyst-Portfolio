@@ -6,6 +6,14 @@
     margin-bottom: 50px;
     font-family: Lora;
 }
+@media (max-width: 400px){
+    .main-page{
+        display:block;
+        width: 1800;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
 .profile-pic{
     height: 150px;
     width: 150px;
