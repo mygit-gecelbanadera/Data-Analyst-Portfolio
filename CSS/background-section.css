@@ -8,13 +8,6 @@
    margin-right: auto;
 }
 
-@media (max-width: 400px){
-    .about-banner{
-        width: 400px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-}
 .bg-container{
     display: block;
     width: 1700px;
