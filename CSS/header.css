@@ -1,0 +1,62 @@
+.header{
+    height: 55px;
+    background-color: white;
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(231, 231, 231);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 100;
+ 
+}
+.gecel-logo{
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.right-section{
+    margin-right: 50px;
+    text-decoration: none;
+  
+}
+.contact-button{
+    border-color: #a6335d;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1.3px;
+}
+.home-button,
+.about-me-button,
+.projects-button{
+    border:none;
+    
+}
+.home-button,
+.about-me-button,
+.projects-button,
+.contact-button{
+    margin-right: 5px;
+    font-family: Lora;
+    font-size: 18px;
+    background-color: white;   
+    padding-left: 15px;
+    padding-right: 12px; 
+    cursor:pointer;
+    transition: 0.4s;
+    text-decoration: none;
+    color: black;
+}
+.home-button:hover,
+.about-me-button:hover,
+.projects-button:hover,
+.contact-button:hover {
+    color:  #a6335d;
+    font-weight: 500;
+  
+}
